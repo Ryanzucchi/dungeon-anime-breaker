@@ -1,0 +1,8 @@
+{
+  "Id": "sand",
+  "Name": "Barreira periódica",
+  "Visual": "shield",
+  "Cooldown": 10,
+  "Shield": 20,
+  "Duration": 4
+}

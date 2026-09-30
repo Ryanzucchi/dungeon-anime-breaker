@@ -1,0 +1,1 @@
+return { Combo=function(state,now,config) state.Haste,state.HasteUntil=config.Haste,now+config.Duration end }

@@ -1,0 +1,999 @@
+<roblox version="4">
+  <Item class="Chat" referent="0">
+    <Properties>
+      <string name="Name">Chat</string>
+      <bool name="BubbleChatEnabled">true</bool>
+      <bool name="IsAutoMigrated">true</bool>
+    </Properties>
+  </Item>
+  <Item class="Lighting" referent="1">
+    <Properties>
+      <string name="Name">Lighting</string>
+      <Color3 name="Ambient">
+        <R>0.27450982</R>
+        <G>0.27450982</G>
+        <B>0.27450982</B>
+      </Color3>
+      <float name="Brightness">3</float>
+      <float name="EnvironmentDiffuseScale">1</float>
+      <float name="EnvironmentSpecularScale">1</float>
+      <Color3 name="FogColor">
+        <R>0.75294125</R>
+        <G>0.75294125</G>
+        <B>0.75294125</B>
+      </Color3>
+      <float name="GeographicLatitude">0</float>
+      <bool name="GlobalShadows">true</bool>
+      <Color3 name="OutdoorAmbient">
+        <R>0.27450982</R>
+        <G>0.27450982</G>
+        <B>0.27450982</B>
+      </Color3>
+      <bool name="Outlines">false</bool>
+      <bool name="PrioritizeLightingQuality">true</bool>
+      <float name="ShadowSoftness">0.2</float>
+      <token name="Technology">3</token>
+      <string name="TimeOfDay">14:30:00</string>
+    </Properties>
+    <Item class="Atmosphere" referent="2">
+      <Properties>
+        <string name="Name">Atmosphere</string>
+        <Color3 name="Color">
+          <R>0.78039217</R>
+          <G>0.78039217</G>
+          <B>0.78039217</B>
+        </Color3>
+        <Color3 name="Decay">
+          <R>0.41568628</R>
+          <G>0.4392157</G>
+          <B>0.49019608</B>
+        </Color3>
+        <float name="Density">0.3</float>
+        <float name="Offset">0.25</float>
+      </Properties>
+    </Item>
+    <Item class="BloomEffect" referent="3">
+      <Properties>
+        <string name="Name">Bloom</string>
+        <float name="Intensity">1</float>
+        <float name="Threshold">2</float>
+      </Properties>
+    </Item>
+    <Item class="DepthOfFieldEffect" referent="4">
+      <Properties>
+        <string name="Name">DepthOfField</string>
+        <bool name="Enabled">false</bool>
+        <float name="FarIntensity">0.1</float>
+        <float name="InFocusRadius">30</float>
+      </Properties>
+    </Item>
+    <Item class="Sky" referent="5">
+      <Properties>
+        <string name="Name">Sky</string>
+        <Content name="MoonTextureContent">
+          <uri>rbxassetid://6444320592</uri>
+        </Content>
+        <Content name="SkyboxBackContent">
+          <uri>rbxassetid://6444884337</uri>
+        </Content>
+        <Content name="SkyboxDownContent">
+          <uri>rbxassetid://6444884785</uri>
+        </Content>
+        <Content name="SkyboxFrontContent">
+          <uri>rbxassetid://6444884337</uri>
+        </Content>
+        <Content name="SkyboxLeftContent">
+          <uri>rbxassetid://6444884337</uri>
+        </Content>
+        <Content name="SkyboxRightContent">
+          <uri>rbxassetid://6444884337</uri>
+        </Content>
+        <Content name="SkyboxUpContent">
+          <uri>rbxassetid://6412503613</uri>
+        </Content>
+        <int64 name="SourceAssetId">332039975</int64>
+        <float name="SunAngularSize">11</float>
+        <Content name="SunTextureContent">
+          <uri>rbxassetid://6196665106</uri>
+        </Content>
+      </Properties>
+    </Item>
+    <Item class="SunRaysEffect" referent="6">
+      <Properties>
+        <string name="Name">SunRays</string>
+        <float name="Intensity">0.01</float>
+        <float name="Spread">0.1</float>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="LocalizationService" referent="7">
+    <Properties>
+      <string name="Name">LocalizationService</string>
+    </Properties>
+  </Item>
+  <Item class="MaterialService" referent="8">
+    <Properties>
+      <string name="Name">MaterialService</string>
+      <bool name="Use2022MaterialsXml">true</bool>
+    </Properties>
+  </Item>
+  <Item class="Players" referent="9">
+    <Properties>
+      <string name="Name">Players</string>
+      <int name="MaxPlayersInternal">60</int>
+      <int name="PreferredPlayersInternal">60</int>
+      <float name="RespawnTime">3</float>
+    </Properties>
+  </Item>
+  <Item class="ReplicatedFirst" referent="10">
+    <Properties>
+      <string name="Name">ReplicatedFirst</string>
+    </Properties>
+  </Item>
+  <Item class="ReplicatedStorage" referent="11">
+    <Properties>
+      <string name="Name">ReplicatedStorage</string>
+    </Properties>
+  </Item>
+  <Item class="ServerScriptService" referent="12">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+  </Item>
+  <Item class="ServerStorage" referent="13">
+    <Properties>
+      <string name="Name">ServerStorage</string>
+    </Properties>
+  </Item>
+  <Item class="SoundService" referent="14">
+    <Properties>
+      <string name="Name">SoundService</string>
+      <token name="DefaultListenerLocation">3</token>
+      <bool name="RespectFilteringEnabled">true</bool>
+    </Properties>
+  </Item>
+  <Item class="StarterGui" referent="15">
+    <Properties>
+      <string name="Name">StarterGui</string>
+      <token name="ScreenOrientation">4</token>
+    </Properties>
+  </Item>
+  <Item class="StarterPack" referent="16">
+    <Properties>
+      <string name="Name">StarterPack</string>
+    </Properties>
+  </Item>
+  <Item class="StarterPlayer" referent="17">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+      <token name="AvatarJointUpgrade_SerializedRollout">2</token>
+      <float name="CameraMaxZoomDistance">128</float>
+      <bool name="CharacterBreakJointsOnDeath">false</bool>
+      <bool name="CharacterUseJumpPower">false</bool>
+    </Properties>
+    <Item class="StarterCharacterScripts" referent="18">
+      <Properties>
+        <string name="Name">StarterCharacterScripts</string>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+        <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+        <bool name="DefinesCapabilities">false</bool>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003f6</UniqueId>
+      </Properties>
+    </Item>
+    <Item class="StarterPlayerScripts" referent="19">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+        <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+        <bool name="DefinesCapabilities">false</bool>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003f5</UniqueId>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Teams" referent="20">
+    <Properties>
+      <string name="Name">Teams</string>
+    </Properties>
+  </Item>
+  <Item class="TestService" referent="21">
+    <Properties>
+      <string name="Name">TestService</string>
+    </Properties>
+  </Item>
+  <Item class="TextChatService" referent="22">
+    <Properties>
+      <string name="Name">TextChatService</string>
+      <token name="ChatVersion">1</token>
+      <bool name="IsLegacyChatDisabled">true</bool>
+      <token name="PlatformIntegratedChat">0</token>
+    </Properties>
+    <Item class="BubbleChatConfiguration" referent="23">
+      <Properties>
+        <string name="Name">BubbleChatConfiguration</string>
+        <token name="Font">47</token>
+        <Font name="FontFace">
+          <Family>
+            <url>rbxasset://fonts/families/BuilderSans.json</url>
+          </Family>
+          <Weight>500</Weight>
+          <Style>Normal</Style>
+          <CachedFaceId>
+            <url>rbxasset://fonts/BuilderSans-Medium.otf</url>
+          </CachedFaceId>
+        </Font>
+        <int64 name="TextSize">20</int64>
+      </Properties>
+      <Item class="ImageLabel" referent="24">
+        <Properties>
+          <string name="Name">ImageLabel</string>
+          <bool name="Active">false</bool>
+          <Vector2 name="AnchorPoint">
+            <X>0</X>
+            <Y>0</Y>
+          </Vector2>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <bool name="AutoLocalize">true</bool>
+          <token name="AutomaticSize">0</token>
+          <Color3 name="BackgroundColor3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <float name="BackgroundTransparency">0</float>
+          <Color3 name="BorderColor3">
+            <R>0.10588236</R>
+            <G>0.16470589</G>
+            <B>0.20784315</B>
+          </Color3>
+          <token name="BorderMode">0</token>
+          <int name="BorderSizePixel">1</int>
+          <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+          <bool name="ClipsDescendants">false</bool>
+          <bool name="Draggable">false</bool>
+          <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+          <Color3 name="ImageColor3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <Content name="ImageContent">
+            <null>
+            </null>
+          </Content>
+          <Vector2 name="ImageRectOffset">
+            <X>0</X>
+            <Y>0</Y>
+          </Vector2>
+          <Vector2 name="ImageRectSize">
+            <X>0</X>
+            <Y>0</Y>
+          </Vector2>
+          <float name="ImageTransparency">0</float>
+          <bool name="Interactable">true</bool>
+          <int name="LayoutOrder">0</int>
+          <Ref name="NextSelectionDown">null</Ref>
+          <Ref name="NextSelectionLeft">null</Ref>
+          <Ref name="NextSelectionRight">null</Ref>
+          <Ref name="NextSelectionUp">null</Ref>
+          <UDim2 name="Position">
+            <XS>0</XS>
+            <XO>0</XO>
+            <YS>0</YS>
+            <YO>0</YO>
+          </UDim2>
+          <token name="ResampleMode">0</token>
+          <Ref name="RootLocalizationTable">null</Ref>
+          <float name="Rotation">0</float>
+          <bool name="DefinesCapabilities">false</bool>
+          <token name="ScaleType">0</token>
+          <bool name="Selectable">false</bool>
+          <token name="SelectionBehaviorDown">0</token>
+          <token name="SelectionBehaviorLeft">0</token>
+          <token name="SelectionBehaviorRight">0</token>
+          <token name="SelectionBehaviorUp">0</token>
+          <bool name="SelectionGroup">false</bool>
+          <Ref name="SelectionImageObject">null</Ref>
+          <int name="SelectionOrder">0</int>
+          <token name="Sink">0</token>
+          <UDim2 name="Size">
+            <XS>0</XS>
+            <XO>100</XO>
+            <YS>0</YS>
+            <YO>100</YO>
+          </UDim2>
+          <token name="SizeConstraint">0</token>
+          <Rect2D name="SliceCenter">
+            <min>
+              <X>0</X>
+              <Y>0</Y>
+            </min>
+            <max>
+              <X>0</X>
+              <Y>0</Y>
+            </max>
+          </Rect2D>
+          <float name="SliceScale">1</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags"></BinaryString>
+          <UDim2 name="TileSize">
+            <XS>1</XS>
+            <XO>0</XO>
+            <YS>1</YS>
+            <YO>0</YO>
+          </UDim2>
+          <UniqueId name="UniqueId">34241166106bdb670acdb1a500000401</UniqueId>
+          <bool name="Visible">true</bool>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="UICorner" referent="25">
+        <Properties>
+          <string name="Name">UICorner</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <UDim name="BottomLeftRadius">
+            <S>0</S>
+            <O>12</O>
+          </UDim>
+          <UDim name="BottomRightRadius">
+            <S>0</S>
+            <O>12</O>
+          </UDim>
+          <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+          <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+          <bool name="DefinesCapabilities">false</bool>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags"></BinaryString>
+          <UDim name="TopLeftRadius">
+            <S>0</S>
+            <O>12</O>
+          </UDim>
+          <UDim name="TopRightRadius">
+            <S>0</S>
+            <O>12</O>
+          </UDim>
+          <UniqueId name="UniqueId">34241166106bdb670acdb1a500000402</UniqueId>
+        </Properties>
+      </Item>
+      <Item class="UIGradient" referent="26">
+        <Properties>
+          <string name="Name">UIGradient</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+          <ColorSequence name="Color">0 1 1 1 0 1 1 1 1 0 </ColorSequence>
+          <bool name="Enabled">false</bool>
+          <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+          <Vector2 name="Offset">
+            <X>0</X>
+            <Y>0</Y>
+          </Vector2>
+          <float name="Rotation">0</float>
+          <bool name="DefinesCapabilities">false</bool>
+          <float name="Scale">1</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags"></BinaryString>
+          <token name="TileMode">0</token>
+          <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+          <token name="Type">0</token>
+          <UniqueId name="UniqueId">34241166106bdb670acdb1a500000400</UniqueId>
+        </Properties>
+      </Item>
+      <Item class="UIPadding" referent="27">
+        <Properties>
+          <string name="Name">UIPadding</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+          <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+          <UDim name="PaddingBottom">
+            <S>0</S>
+            <O>8</O>
+          </UDim>
+          <UDim name="PaddingLeft">
+            <S>0</S>
+            <O>8</O>
+          </UDim>
+          <UDim name="PaddingRight">
+            <S>0</S>
+            <O>8</O>
+          </UDim>
+          <UDim name="PaddingTop">
+            <S>0</S>
+            <O>8</O>
+          </UDim>
+          <bool name="DefinesCapabilities">false</bool>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags"></BinaryString>
+          <UniqueId name="UniqueId">34241166106bdb670acdb1a500000403</UniqueId>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="ChannelTabsConfiguration" referent="28">
+      <Properties>
+        <string name="Name">ChannelTabsConfiguration</string>
+      </Properties>
+    </Item>
+    <Item class="ChatInputBarConfiguration" referent="29">
+      <Properties>
+        <string name="Name">ChatInputBarConfiguration</string>
+        <Font name="FontFace">
+          <Family>
+            <url>rbxasset://fonts/families/BuilderSans.json</url>
+          </Family>
+          <Weight>500</Weight>
+          <Style>Normal</Style>
+          <CachedFaceId>
+            <url>rbxasset://fonts/BuilderSans-Medium.otf</url>
+          </CachedFaceId>
+        </Font>
+        <int64 name="TextSize">18</int64>
+      </Properties>
+    </Item>
+    <Item class="ChatWindowConfiguration" referent="30">
+      <Properties>
+        <string name="Name">ChatWindowConfiguration</string>
+        <Font name="FontFace">
+          <Family>
+            <url>rbxasset://fonts/families/BuilderSans.json</url>
+          </Family>
+          <Weight>500</Weight>
+          <Style>Normal</Style>
+          <CachedFaceId>
+            <url>rbxasset://fonts/BuilderSans-Medium.otf</url>
+          </CachedFaceId>
+        </Font>
+        <token name="TextChannelDisplayMode">0</token>
+        <int64 name="TextSize">18</int64>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Workspace" referent="31">
+    <Properties>
+      <string name="Name">Workspace</string>
+      <BinaryString name="AttributesSerialize">AQAAABkAAABSb2pvX1RhcmdldF9DdXJyZW50Q2FtZXJhAiAAAAAzNDI0MTE2NjEwNmJkYjY3MGFjZGIxYTUwMDAwMDNlZQ==</BinaryString>
+      <bool name="AutoSimulate">true</bool>
+      <Ref name="CurrentCamera">32</Ref>
+      <token name="ExpandedTerrain">0</token>
+      <Vector3 name="GravityDirection">
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </Vector3>
+      <token name="MapTVRemoteToGamepadKeycodes">0</token>
+      <bool name="NeedsPivotMigration">false</bool>
+      <token name="PlayerCharacterDestroyBehavior">2</token>
+      <token name="PlayerScriptsUseInputActionSystem">2</token>
+      <token name="PredictiveStreamingMode">0</token>
+      <token name="SignalBehavior2">2</token>
+      <float name="SimulationRate">1</float>
+      <token name="StreamOutBehavior">2</token>
+      <bool name="StreamingAdaptiveRadius">false</bool>
+      <bool name="StreamingEnabled">true</bool>
+      <token name="StreamingIntegrityMode">3</token>
+      <token name="UseInputSink">0</token>
+      <float name="Wind">0</float>
+      <Vector3 name="WindDirection">
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Vector3>
+      <OptionalCoordinateFrame name="WorldPivotData">
+        <CFrame>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CFrame>
+      </OptionalCoordinateFrame>
+    </Properties>
+    <Item class="Part" referent="33">
+      <Properties>
+        <string name="Name">Baseplate</string>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <bool name="AudioCanCollide">true</bool>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">0</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>-8</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanQuery">true</bool>
+        <bool name="CanTouch">true</bool>
+        <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+        <bool name="CastShadow">true</bool>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">5987163</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <bool name="EnableFluidForces">true</bool>
+        <token name="formFactorRaw">0</token>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
+        <string name="MaterialVariantSerialized"></string>
+        <CoordinateFrame name="PivotOffset">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <bool name="DefinesCapabilities">false</bool>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>2048</X>
+          <Y>16</Y>
+          <Z>2048</Z>
+        </Vector3>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">0</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003ef</UniqueId>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+      </Properties>
+      <Item class="Texture" referent="34">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <bool name="AutoLocalize">true</bool>
+          <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+          <Color3 name="Color3">
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Color3>
+          <Content name="EmissiveMaskContent">
+            <null>
+            </null>
+          </Content>
+          <float name="EmissiveStrength">1</float>
+          <Color3 name="EmissiveTint">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+          <Content name="MetalnessMapContent">
+            <null>
+            </null>
+          </Content>
+          <Content name="NormalMapContent">
+            <null>
+            </null>
+          </Content>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <float name="Rotation">0</float>
+          <Content name="RoughnessMapContent">
+            <null>
+            </null>
+          </Content>
+          <bool name="DefinesCapabilities">false</bool>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="TextureContent">
+            <uri>rbxassetid://6372755229</uri>
+          </Content>
+          <ContentId name="TexturePack">
+            <null>
+            </null>
+          </ContentId>
+          <string name="TexturePackMetadata"></string>
+          <float name="Transparency">0.8</float>
+          <Vector2 name="UVOffset">
+            <X>0</X>
+            <Y>0</Y>
+          </Vector2>
+          <Vector2 name="UVScale">
+            <X>1</X>
+            <Y>1</Y>
+          </Vector2>
+          <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003f0</UniqueId>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Camera" referent="32">
+      <Properties>
+        <string name="Name">Camera</string>
+        <BinaryString name="AttributesSerialize">AQAAAAcAAABSb2pvX0lkAiAAAAAzNDI0MTE2NjEwNmJkYjY3MGFjZGIxYTUwMDAwMDNlZQ==</BinaryString>
+        <CoordinateFrame name="CFrame">
+          <X>-19.696095</X>
+          <Y>14.091624</Y>
+          <Z>-19.303886</Z>
+          <R00>-0.7061509</R00>
+          <R01>0.31296578</R01>
+          <R02>-0.6351404</R02>
+          <R10>0.000000014901163</R10>
+          <R11>0.8970132</R11>
+          <R12>0.44200373</R12>
+          <R20>0.7080614</R20>
+          <R21>0.31212133</R21>
+          <R22>-0.63342667</R22>
+        </CoordinateFrame>
+        <Ref name="CameraSubject">null</Ref>
+        <token name="CameraType">0</token>
+        <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+        <float name="FieldOfView">70</float>
+        <token name="FieldOfViewMode">0</token>
+        <CoordinateFrame name="Focus">
+          <X>-18.425814</X>
+          <Y>13.207617</Y>
+          <Z>-18.037033</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="HeadLocked">true</bool>
+        <float name="HeadScale">1</float>
+        <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+        <bool name="DefinesCapabilities">false</bool>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003ee</UniqueId>
+        <bool name="VRTiltAndRollEnabled">false</bool>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="35">
+      <Properties>
+        <string name="Name">SpawnLocation</string>
+        <bool name="AllowTeamChangeOnTouch">false</bool>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <bool name="AudioCanCollide">true</bool>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">0</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0.5</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanQuery">true</bool>
+        <bool name="CanTouch">true</bool>
+        <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+        <bool name="CastShadow">true</bool>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">10724005</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <int name="Duration">0</int>
+        <bool name="EnableFluidForces">true</bool>
+        <bool name="Enabled">true</bool>
+        <token name="formFactorRaw">1</token>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
+        <string name="MaterialVariantSerialized"></string>
+        <bool name="Neutral">true</bool>
+        <CoordinateFrame name="PivotOffset">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <bool name="DefinesCapabilities">false</bool>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>1</Y>
+          <Z>12</Z>
+        </Vector3>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <int name="TeamColor">194</int>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">0</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003f2</UniqueId>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+      </Properties>
+      <Item class="Decal" referent="36">
+        <Properties>
+          <string name="Name">Decal</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <bool name="AutoLocalize">true</bool>
+          <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <Content name="EmissiveMaskContent">
+            <null>
+            </null>
+          </Content>
+          <float name="EmissiveStrength">1</float>
+          <Color3 name="EmissiveTint">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+          <Content name="MetalnessMapContent">
+            <null>
+            </null>
+          </Content>
+          <Content name="NormalMapContent">
+            <null>
+            </null>
+          </Content>
+          <float name="Rotation">0</float>
+          <Content name="RoughnessMapContent">
+            <null>
+            </null>
+          </Content>
+          <bool name="DefinesCapabilities">false</bool>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="TextureContent">
+            <uri>rbxasset://textures/SpawnLocation.png</uri>
+          </Content>
+          <ContentId name="TexturePack">
+            <null>
+            </null>
+          </ContentId>
+          <string name="TexturePackMetadata"></string>
+          <float name="Transparency">0</float>
+          <Vector2 name="UVOffset">
+            <X>0</X>
+            <Y>0</Y>
+          </Vector2>
+          <Vector2 name="UVScale">
+            <X>1</X>
+            <Y>1</Y>
+          </Vector2>
+          <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003f3</UniqueId>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Terrain" referent="37">
+      <Properties>
+        <string name="Name">Terrain</string>
+        <token name="AcquisitionMethod">0</token>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <bool name="AudioCanCollide">true</bool>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">4</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanQuery">true</bool>
+        <bool name="CanTouch">true</bool>
+        <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+        <bool name="CastShadow">true</bool>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">10724005</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <bool name="Decoration">true</bool>
+        <bool name="EnableFluidForces">true</bool>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <float name="GrassLength">0.7</float>
+        <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">true</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">256</token>
+        <BinaryString name="MaterialColors">AAAAAAAAb34+WFlWmJiYimFJz8unrJRsY2Rm3eTl6/3/lHxfeXBiS0pKjIJo/xhDUFRUhoZ2zNLfaoZA///+//PAj5CH</BinaryString>
+        <string name="MaterialVariantSerialized"></string>
+        <SharedString name="Materials">rxNJufX5oaagQE3qNtzJSQ==</SharedString>
+        <BinaryString name="PhysicsGrid"><![CDATA[AgMAAAAAAAAAAAAAAAA=]]></BinaryString>
+        <CoordinateFrame name="PivotOffset">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <bool name="DefinesCapabilities">false</bool>
+        <Vector3 name="size">
+          <X>2044</X>
+          <Y>252</Y>
+          <Z>2044</Z>
+        </Vector3>
+        <BinaryString name="SmoothGrid"><![CDATA[AQU=]]></BinaryString>
+        <bool name="SmoothVoxelsUpgraded">false</bool>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">3</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <UniqueId name="UniqueId">34241166106bdb670acdb1a5000003f1</UniqueId>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <Color3 name="WaterColor">
+          <R>0.04705883</R>
+          <G>0.32941177</G>
+          <B>0.36078432</B>
+        </Color3>
+        <float name="WaterReflectance">1</float>
+        <float name="WaterTransparency">0.3</float>
+        <float name="WaterWaveSize">0.15</float>
+        <float name="WaterWaveSpeed">10</float>
+      </Properties>
+    </Item>
+  </Item>
+  <SharedStrings>
+    <SharedString md5="rxNJufX5oaagQE3qNtzJSQ=="></SharedString>
+  </SharedStrings>
+</roblox>

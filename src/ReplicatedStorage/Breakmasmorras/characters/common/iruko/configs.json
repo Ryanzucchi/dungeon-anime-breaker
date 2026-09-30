@@ -1,0 +1,72 @@
+{
+  "Passive": "discipline",
+  "PassiveName": "Disciplina: combo fortalece o próximo selo",
+  "Support": {
+    "Name": "Proteção do mentor",
+    "Effect": "shield",
+    "Amount": 25,
+    "Cooldown": 9
+  },
+  "Skills": {
+    "M1": {
+      "Name": "Golpes básicos",
+      "Effect": "melee",
+      "Damage": 12,
+      "Range": 8,
+      "Radius": 5,
+      "Cooldown": 0.38,
+      "Cost": 0
+    },
+    "Q": {
+      "Name": "Lâminas em leque",
+      "Effect": "fan",
+      "Damage": 19,
+      "Range": 48,
+      "Radius": 2.2,
+      "Cooldown": 3,
+      "Cost": 12
+    },
+    "E": {
+      "Name": "Substituição",
+      "Effect": "evade",
+      "Damage": 0,
+      "Range": 12,
+      "Radius": 0,
+      "Cooldown": 5,
+      "Cost": 15
+    },
+    "R": {
+      "Name": "Armadilha de selo",
+      "Effect": "trap",
+      "Damage": 28,
+      "Range": 32,
+      "Radius": 9,
+      "Cooldown": 7,
+      "Cost": 20,
+      "Slow": 2.5
+    },
+    "F": {
+      "Name": "Golpe descendente",
+      "Effect": "slam",
+      "Damage": 35,
+      "Range": 10,
+      "Radius": 10,
+      "Cooldown": 8,
+      "Cost": 24,
+      "ImpactLevel": 2
+    },
+    "G": {
+      "Name": "Formação de selos",
+      "Effect": "ultimate",
+      "Damage": 85,
+      "Range": 32,
+      "Radius": 19,
+      "Cooldown": 22,
+      "Cost": 50,
+      "Slow": 2,
+      "ImpactLevel": 3
+    }
+  },
+  "PassiveEffect": "discipline",
+  "ImpactProfile": "rune"
+}

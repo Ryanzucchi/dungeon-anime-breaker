@@ -1,0 +1,12 @@
+{
+  "Id": "kurino",
+  "Name": "Kurino",
+  "HP": 145,
+  "Attack": 1,
+  "Speed": 19,
+  "Color": [
+    255,
+    190,
+    80
+  ]
+}

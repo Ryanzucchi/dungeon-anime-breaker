@@ -1,0 +1,8 @@
+{
+  "Id": "trap",
+  "Name": "Armadilha",
+  "Visual": "telegraph",
+  "Delay": 0.8,
+  "TelegraphVisual": "telegraph",
+  "ImpactVisual": "impact"
+}

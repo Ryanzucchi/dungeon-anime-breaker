@@ -1,0 +1,73 @@
+{
+  "Passive": "rhythm",
+  "PassiveName": "Ritmo: combo acelera golpes por uma janela curta",
+  "Support": {
+    "Name": "Ritmo de treino",
+    "Effect": "haste",
+    "Amount": 1.2,
+    "Cooldown": 10
+  },
+  "Skills": {
+    "M1": {
+      "Name": "Combo de punhos",
+      "Effect": "melee",
+      "Damage": 11,
+      "Range": 8,
+      "Radius": 5,
+      "Cooldown": 0.3,
+      "Cost": 0
+    },
+    "Q": {
+      "Name": "Rajada de punhos",
+      "Effect": "burst",
+      "Damage": 10,
+      "Range": 9,
+      "Radius": 6,
+      "Cooldown": 3.5,
+      "Cost": 14,
+      "Hits": 3
+    },
+    "E": {
+      "Name": "Corrida explosiva",
+      "Effect": "charge",
+      "Damage": 18,
+      "Range": 18,
+      "Radius": 6,
+      "Cooldown": 5,
+      "Cost": 15
+    },
+    "R": {
+      "Name": "Chute ascendente",
+      "Effect": "melee",
+      "Damage": 28,
+      "Range": 9,
+      "Radius": 7,
+      "Cooldown": 6,
+      "Cost": 20,
+      "Stun": 1
+    },
+    "F": {
+      "Name": "Queda devastadora",
+      "Effect": "slam",
+      "Damage": 42,
+      "Range": 9,
+      "Radius": 12,
+      "Cooldown": 8,
+      "Cost": 24,
+      "ImpactLevel": 2
+    },
+    "G": {
+      "Name": "Portões do ímpeto",
+      "Effect": "ultimate",
+      "Damage": 95,
+      "Range": 12,
+      "Radius": 17,
+      "Cooldown": 22,
+      "Cost": 50,
+      "Haste": 1.25,
+      "ImpactLevel": 3
+    }
+  },
+  "PassiveEffect": "rhythm",
+  "ImpactProfile": "force"
+}

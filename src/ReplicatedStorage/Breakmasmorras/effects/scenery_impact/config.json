@@ -1,0 +1,17 @@
+{
+  "Id": "scenery_impact",
+  "Name": "Impacto visual de cenário",
+  "DefaultQuality": "Medium",
+  "MaxParts": 180,
+  "Quality": {
+    "Low": { "Cracks": 3, "Debris": 0, "Lifetime": 1.8 },
+    "Medium": { "Cracks": 7, "Debris": 5, "Lifetime": 3.2 },
+    "High": { "Cracks": 12, "Debris": 10, "Lifetime": 4.5 }
+  },
+  "Levels": {
+    "1": { "Scale": 0.45, "DebrisScale": 0.25 },
+    "2": { "Scale": 0.75, "DebrisScale": 0.65 },
+    "3": { "Scale": 1.0, "DebrisScale": 1.0 },
+    "4": { "Scale": 1.25, "DebrisScale": 1.0 }
+  }
+}

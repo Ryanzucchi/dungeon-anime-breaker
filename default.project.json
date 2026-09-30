@@ -1,0 +1,208 @@
+{
+  "name": "Quebra-Masmorras-de-Anime",
+  "tree": {
+    "$className": "DataModel",
+    "Chat": {
+      "$className": "Chat",
+      "$properties": {
+        "BubbleChatEnabled": true,
+        "IsAutoMigrated": true
+      },
+      "$path": "src/Chat"
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [
+          0.27450981736183167,
+          0.27450981736183167,
+          0.27450981736183167
+        ],
+        "Brightness": 3.0,
+        "EnvironmentDiffuseScale": 1.0,
+        "EnvironmentSpecularScale": 1.0,
+        "FogColor": [
+          0.7529412508010864,
+          0.7529412508010864,
+          0.7529412508010864
+        ],
+        "GeographicLatitude": 0.0,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [
+          0.27450981736183167,
+          0.27450981736183167,
+          0.27450981736183167
+        ],
+        "Outlines": false,
+        "PrioritizeLightingQuality": true,
+        "ShadowSoftness": 0.20000000298023224,
+        "Technology": "ShadowMap",
+        "TimeOfDay": "14:30:00"
+      },
+      "$path": "src/Lighting"
+    },
+    "LocalizationService": {
+      "$className": "LocalizationService",
+      "$path": "src/LocalizationService"
+    },
+    "MaterialService": {
+      "$className": "MaterialService",
+      "$properties": {
+        "Use2022MaterialsXml": true
+      },
+      "$path": "src/MaterialService"
+    },
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "MaxPlayers": 60.0,
+        "PreferredPlayers": 60.0,
+        "RespawnTime": 3.0
+      },
+      "$path": "src/Players"
+    },
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src/ReplicatedFirst"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/ServerStorage"
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "DefaultListenerLocation": "Camera",
+        "RespectFilteringEnabled": true
+      },
+      "$path": "src/SoundService"
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      },
+      "$path": "src/StarterGui"
+    },
+    "StarterPack": {
+      "$className": "StarterPack",
+      "$path": "src/StarterPack"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "AvatarJointUpgrade": "Enabled",
+        "CameraMaxZoomDistance": 128.0,
+        "CharacterBreakJointsOnDeath": false,
+        "CharacterUseJumpPower": false
+      },
+      "$path": "src/StarterPlayer"
+    },
+    "Teams": {
+      "$className": "Teams",
+      "$path": "src/Teams"
+    },
+    "TestService": {
+      "$className": "TestService",
+      "$path": "src/TestService"
+    },
+    "TextChatService": {
+      "$className": "TextChatService",
+      "$properties": {
+        "ChatVersion": "TextChatService",
+        "IsLegacyChatDisabled": true,
+        "PlatformIntegratedChat": {
+          "Enum": 0
+        }
+      },
+      "$path": "src/TextChatService"
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "AutoSimulate": {
+          "Bool": true
+        },
+        "ExpandedTerrain": {
+          "Enum": 0
+        },
+        "GravityDirection": {
+          "Vector3": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "MapTVRemoteToGamepadKeycodes": {
+          "Enum": 0
+        },
+        "PlayerCharacterDestroyBehavior": "Enabled",
+        "PlayerScriptsUseInputActionSystem": "Enabled",
+        "PredictiveStreamingMode": {
+          "Enum": 0
+        },
+        "SignalBehavior": "Deferred",
+        "SimulationRate": {
+          "Float32": 1.0
+        },
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingAdaptiveRadius": {
+          "Bool": false
+        },
+        "StreamingEnabled": true,
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "UseInputSink": {
+          "Enum": 0
+        },
+        "Wind": {
+          "Float32": 0.0
+        },
+        "WindDirection": {
+          "Vector3": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "$attributes": {
+        "Rojo_Target_CurrentCamera": "34241166106bdb670acdb1a5000003ee"
+      },
+      "$path": "src/Workspace"
+    }
+  }
+}

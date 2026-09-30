@@ -1,0 +1,21 @@
+return {
+    RoomCount = 25,
+    RegionSizes = {
+        Small = { Min = 50, Max = 75 },
+        Medium = { Min = 75, Max = 120 },
+        Large = { Min = 120, Max = 180 },
+        Arena = { Min = 100, Max = 160 },
+        Landmark = { Min = 112, Max = 154 },
+    },
+    MainRouteSpacing = 142,
+    SideBranchOffset = 150,
+    FloorThickness = 4,
+    PathWidth = 15,
+    ConnectorWidth = 16,
+    MaxEnemiesPerArea = 6,
+    MaxVisualPropsPerRegion = 12,
+    MaxMapParts = 2400,
+    CliffSegmentCount = 8,
+    WaterPatchCount = 3,
+    Debug = { ShowRegions = false, ShowPaths = false, ShowGraph = false, ShowSpawnZones = false, ShowReservedAreas = false, ShowConnectors = false },
+}

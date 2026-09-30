@@ -1,0 +1,73 @@
+{
+  "Passive": "sand",
+  "PassiveName": "Defesa automática: barreira periódica em combate",
+  "Support": {
+    "Name": "Escudo de areia",
+    "Effect": "shield",
+    "Amount": 38,
+    "Cooldown": 11
+  },
+  "Skills": {
+    "M1": {
+      "Name": "Projétil de areia",
+      "Effect": "projectile",
+      "Damage": 14,
+      "Range": 45,
+      "Radius": 2.5,
+      "Cooldown": 0.5,
+      "Cost": 0
+    },
+    "Q": {
+      "Name": "Onda de areia",
+      "Effect": "line",
+      "Damage": 26,
+      "Range": 35,
+      "Radius": 7,
+      "Cooldown": 4,
+      "Cost": 15
+    },
+    "E": {
+      "Name": "Escudo de areia",
+      "Effect": "shield",
+      "Damage": 0,
+      "Range": 0,
+      "Radius": 0,
+      "Cooldown": 8,
+      "Cost": 20,
+      "Shield": 55
+    },
+    "R": {
+      "Name": "Prisão de areia",
+      "Effect": "area",
+      "Damage": 24,
+      "Range": 36,
+      "Radius": 12,
+      "Cooldown": 7,
+      "Cost": 23,
+      "Stun": 1.8
+    },
+    "F": {
+      "Name": "Pilar eruptivo",
+      "Effect": "area",
+      "Damage": 45,
+      "Range": 36,
+      "Radius": 9,
+      "Cooldown": 8,
+      "Cost": 26,
+      "ImpactLevel": 2
+    },
+    "G": {
+      "Name": "Mausoléu de areia",
+      "Effect": "ultimate",
+      "Damage": 92,
+      "Range": 36,
+      "Radius": 21,
+      "Cooldown": 24,
+      "Cost": 50,
+      "Slow": 3,
+      "ImpactLevel": 3
+    }
+  },
+  "PassiveEffect": "sand",
+  "ImpactProfile": "sand"
+}

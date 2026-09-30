@@ -1,0 +1,13 @@
+{
+  "Id": "evade",
+  "Name": "Evasão",
+  "Visual": "dash",
+  "Cooldown": 1.6,
+  "Distance": 14,
+  "Color": [
+    200,
+    210,
+    230
+  ],
+  "Invulnerability": 0.25
+}

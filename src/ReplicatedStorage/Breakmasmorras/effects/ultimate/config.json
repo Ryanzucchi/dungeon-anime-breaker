@@ -1,0 +1,9 @@
+{
+  "Id": "ultimate",
+  "Name": "Habilidade suprema",
+  "Visual": "telegraph",
+  "Delay": 0.65,
+  "TelegraphVisual": "telegraph",
+  "ImpactVisual": "impact",
+  "HasteDuration": 6
+}

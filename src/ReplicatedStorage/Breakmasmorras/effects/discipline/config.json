@@ -1,0 +1,10 @@
+{
+  "Id": "discipline",
+  "Name": "Combo selado",
+  "Visual": "pulse",
+  "DamageMultiplier": 1.25,
+  "TriggerSlots": [
+    "R",
+    "G"
+  ]
+}

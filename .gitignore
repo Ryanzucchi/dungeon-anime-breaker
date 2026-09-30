@@ -1,0 +1,18 @@
+# Roblox Studio temporary & lock files
+*.lock
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxmx.lock
+
+# Logs
+*.log
+rojo-server*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configs
+.vscode/
+.idea/

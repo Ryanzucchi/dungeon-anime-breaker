@@ -1,0 +1,71 @@
+{
+  "Passive": "precision",
+  "PassiveName": "Precisão: disco causa mais dano em alvos controlados",
+  "Support": {
+    "Name": "Clarão auxiliar",
+    "Effect": "stun",
+    "Radius": 14,
+    "Cooldown": 10
+  },
+  "Skills": {
+    "M1": {
+      "Name": "Disparo leve",
+      "Effect": "projectile",
+      "Damage": 12,
+      "Range": 52,
+      "Radius": 2,
+      "Cooldown": 0.42,
+      "Cost": 0
+    },
+    "Q": {
+      "Name": "Disco cortante",
+      "Effect": "pierce",
+      "Damage": 32,
+      "Range": 58,
+      "Radius": 4,
+      "Cooldown": 4,
+      "Cost": 15
+    },
+    "E": {
+      "Name": "Evasão curta",
+      "Effect": "evade",
+      "Damage": 0,
+      "Range": 13,
+      "Radius": 0,
+      "Cooldown": 5,
+      "Cost": 15
+    },
+    "R": {
+      "Name": "Clarão",
+      "Effect": "area",
+      "Damage": 9,
+      "Range": 0,
+      "Radius": 16,
+      "Cooldown": 8,
+      "Cost": 24,
+      "Stun": 2
+    },
+    "F": {
+      "Name": "Feixe compacto",
+      "Effect": "line",
+      "Damage": 42,
+      "Range": 52,
+      "Radius": 5,
+      "Cooldown": 8,
+      "Cost": 25,
+      "ImpactLevel": 2
+    },
+    "G": {
+      "Name": "Barragem de discos",
+      "Effect": "ultimate",
+      "Damage": 90,
+      "Range": 48,
+      "Radius": 18,
+      "Cooldown": 23,
+      "Cost": 50,
+      "ImpactLevel": 3
+    }
+  },
+  "PassiveEffect": "precision",
+  "ImpactProfile": "precision"
+}

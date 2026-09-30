@@ -1,0 +1,7 @@
+{
+  "Id": "stun",
+  "Name": "Atordoamento de Support",
+  "Visual": "pulse",
+  "Duration": 1.3,
+  "BossDuration": 0.2
+}

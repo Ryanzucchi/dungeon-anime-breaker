@@ -1,0 +1,7 @@
+{
+  "Id": "rhythm",
+  "Name": "Ritmo de combate",
+  "Visual": "pulse",
+  "Haste": 1.2,
+  "Duration": 3
+}
